@@ -1,14 +1,13 @@
 package org.example;
 
-public class Actor {
+public class Director {
 
     private String firstName;
     private String lastName;
 
-    public Actor(String firstName, String lastName){
-        this.firstName= firstName;
+    public Director(String firstName, String lastName) {
+        this.firstName = firstName;
         this.lastName = lastName;
-
     }
 
     public String getFirstName() {
